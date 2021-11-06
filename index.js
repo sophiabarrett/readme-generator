@@ -54,7 +54,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Select a license for your project.',
-        choices: ['License 1', 'License 2', 'License 3', 'License 4', 'License 5']
+        choices: ['MIT', 'ISC', 'GNU', 'Apache']
     }
 ];
 
@@ -89,7 +89,7 @@ const mockData = {
     usage: 'Anyone can use to make a quick README file.',
     contribute: 'Anyone can contribute!',
     test: 'For testing, download and install packages',
-    license: 'License 3'
+    license: 'ISC'
   };
 
 // TODO: Create a function to initialize app
