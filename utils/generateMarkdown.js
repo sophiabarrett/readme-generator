@@ -29,16 +29,14 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `
-## License
-This package is licensed under the ${license} license. For detials, visit ${renderLicenseLink(license)}.
-    `;
+    return `## License
+This package is licensed under the ${license} license. For detials, visit ${renderLicenseLink(license)}.`;
   } else {
     return ``;
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -61,9 +59,9 @@ ${data.contribute}
 ${data.test}
 
 ## Questions?
+For questions contact ${data.name} at [${data.email}](mailto:${data.email}) or visit [github.com/${data.github}](https://github.com/${data.github}).
 
-${renderLicenseSection(data.license)}
-`;
+${renderLicenseSection(data.license)}`;
 }
 
 module.exports = generateMarkdown;

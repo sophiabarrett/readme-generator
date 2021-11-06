@@ -20,8 +20,7 @@ Anyone can contribute!
 For testing, download and install packages
 
 ## Questions?
-
+For questions contact Sophie barrett at [sophia@yoursummit.media](mailto:sophia@yoursummit.media) or visit [github.com/sophiabarrett](https://github.com/sophiabarrett)
 
 ## License
 This package is licensed under the MIT license. For detials, visit [https://link](#).
-    
