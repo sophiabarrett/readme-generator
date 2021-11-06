@@ -3,7 +3,7 @@
 ## Description
 Command line app that generates a professional README file from user inputs.
 
-![ISC](https://img.shields.io/static/v1?label=license&message=ISC&color=green)
+![MIT](https://img.shields.io/static/v1?label=license&message=MIT&color=green)
 
 ## Table of Contents
 
@@ -21,5 +21,7 @@ For testing, download and install packages
 
 ## Questions?
 
+
 ## License
-ISC
+This package is licensed under the MIT license. For detials, visit [https://link](#).
+    
