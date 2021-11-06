@@ -42,7 +42,7 @@ const questions = [
     // },
     // {
     //     type: 'input',
-    //     name: 'contribution',
+    //     name: 'contribute',
     //     message: 'Provide contribution guidelines for your project.'
     // },
     // {
@@ -87,7 +87,7 @@ const mockData = {
     description: 'Command line app that generates a professional README file from user inputs.',
     install: 'Download to local machine and install packages.',
     usage: 'Anyone can use to make a quick README file.',
-    contribution: 'Anyone can contribute!',
+    contribute: 'Anyone can contribute!',
     test: 'For testing, download and install packages',
     license: 'License 3'
   };
