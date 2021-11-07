@@ -21,9 +21,11 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(license, name) {
   if (license === 'MIT') {
-    return `
+    return `## License
+Copyright © ${new Date().getFullYear()} ${name}
+    
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -42,6 +44,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`;
   } else if (license === "GNU GPL") {
+    return `## License
+`;
+  } else if (license === "Apache") {
+    return `## License
+`;
   }
   else {
     return ``;
@@ -61,7 +68,7 @@ ${renderLicenseBadge(data.license)}
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Questions](#Questions)
+* [Questions](#questions)
 ${renderLicenseLink(data.license)}
 
 ## Installation
@@ -76,12 +83,10 @@ ${data.contribute}
 ## Tests
 ${data.test}
 
-## Questions?
+## Questions
 For questions contact ${data.name} at [${data.email}](mailto:${data.email}) or visit [github.com/${data.github}](https://github.com/${data.github}).
 
-## License
-Copyright © ${new Date().getFullYear()} ${data.name}
-${renderLicenseSection(data.license)}`;
+${renderLicenseSection(data.license, data.name)}`;
 }
 
 module.exports = generateMarkdown;

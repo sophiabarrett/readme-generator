@@ -1,7 +1,7 @@
-# Professional README Generator
+# Test
 
 ## Description
-Command line app that generates a professional README file from user inputs.
+This is a test.
 
 ![MIT](https://img.shields.io/static/v1?label=license&message=MIT&color=green)
 
@@ -14,23 +14,23 @@ Command line app that generates a professional README file from user inputs.
 * [License](#license)
 
 ## Installation
-Download to local machine and install packages.
+Download and install
 
 ## Usage
-Anyone can use to make a quick README file.
+Use as you want
 
 ## Contributing
-Anyone can contribute!
+Please add stuff!
 
 ## Tests
-For testing, download and install packages
+Testing testing
 
-## Questions?
-For questions contact Sophie barrett at [sophia@yoursummit.media](mailto:sophia@yoursummit.media) or visit [github.com/sophiabarrett](https://github.com/sophiabarrett).
+## Questions
+For questions contact Sophie at [s@s.com](mailto:s@s.com) or visit [github.com/sophie](https://github.com/sophie).
 
 ## License
-Copyright © 2021 Sophie barrett
-
+Copyright © 2021 Sophie
+    
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
