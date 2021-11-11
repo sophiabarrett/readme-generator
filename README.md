@@ -17,6 +17,7 @@ Download then install npm packages.
 
 ## Usage
 Run the app using command line "node index.js"
+[Click here to watch it in action!](https://drive.google.com/file/d/1dxZz1_hPbiax6cR2ZKsuFC8wAWVw7p_7/view)
 
 ## Contributing
 Anyone can contribute!
