@@ -1,9 +1,9 @@
-# Professional README Generator
+# My Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Command line app that creates a professional README.md file from user inputs.
+Tell users a little bit about your project!
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,16 +14,16 @@ Command line app that creates a professional README.md file from user inputs.
 * [License](#license)
 
 ## Installation
-Tell users how to install your project here.
+Tell users how to install your project locally.
 
 ## Usage
-Provide users with an explaniation of how to use your project after installation.
+Tell users how to use your project once installed.
 
 ## Contributing
-Explain any of your contribution preferences so that users know how to contribute to your work.
+Tell users about any contribution preferences you might have.
 
 ## Tests
-Explain how to run automated test on your project.
+Tell users how to run tests on your project.
 
 ## Questions
 For questions contact Sophia Barrett at [sophia@yoursummit.media](mailto:sophia@yoursummit.media) or visit [github.com/sophiabarrett](https://github.com/sophiabarrett).
