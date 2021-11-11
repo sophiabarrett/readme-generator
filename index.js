@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
                 return;
             }
 
-            resolve('Success!');
+            resolve('Success! Check the "dist" folder for your new README file.');
         });
     });
 }
